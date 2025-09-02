@@ -3,6 +3,9 @@ namespace Demo.Gql.Types;
 [QueryType]
 public static class Query
 {
-    public static Book GetBook()
-        => new Book("C# in depth.", new Author("Jon Skeet"));
+    public static string SayHello(string name = "World")
+        => $"Hello, {name}!";
+
+    public static Book GetBookByName(string title = "How to Code C#")
+        => new Book(title, new Author("Shahab Bahojb"));
 }
