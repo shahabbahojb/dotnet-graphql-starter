@@ -1,0 +1,447 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Api/MyApp.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Api/MyApp.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Api/MyApp.Api.csproj",
+        "projectName": "MyApp.Api",
+        "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Api/MyApp.Api.csproj",
+        "packagesPath": "/Users/shahab/.nuget/packages/",
+        "outputPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shahab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbMigrator/MyApp.DbMigrator.csproj": {
+                "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbMigrator/MyApp.DbMigrator.csproj"
+              },
+              "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbSeeder/MyApp.DbSeeder.csproj": {
+                "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbSeeder/MyApp.DbSeeder.csproj"
+              },
+              "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Infrastructure/MyApp.Infrastructure.csproj": {
+                "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Infrastructure/MyApp.Infrastructure.csproj"
+              },
+              "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Migrations/MyApp.Migrations.csproj": {
+                "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Migrations/MyApp.Migrations.csproj"
+              },
+              "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Seeding/MyApp.Seeding.csproj": {
+                "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Seeding/MyApp.Seeding.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "HotChocolate.AspNetCore": {
+              "target": "Package",
+              "version": "[15.1.10, )"
+            },
+            "HotChocolate.AspNetCore.CommandLine": {
+              "target": "Package",
+              "version": "[15.1.10, )"
+            },
+            "HotChocolate.Types.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[15.1.10, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbMigrator/MyApp.DbMigrator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbMigrator/MyApp.DbMigrator.csproj",
+        "projectName": "MyApp.DbMigrator",
+        "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbMigrator/MyApp.DbMigrator.csproj",
+        "packagesPath": "/Users/shahab/.nuget/packages/",
+        "outputPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbMigrator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shahab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbSeeder/MyApp.DbSeeder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbSeeder/MyApp.DbSeeder.csproj",
+        "projectName": "MyApp.DbSeeder",
+        "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbSeeder/MyApp.DbSeeder.csproj",
+        "packagesPath": "/Users/shahab/.nuget/packages/",
+        "outputPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.DbSeeder/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shahab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Infrastructure/MyApp.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Infrastructure/MyApp.Infrastructure.csproj",
+        "projectName": "MyApp.Infrastructure",
+        "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Infrastructure/MyApp.Infrastructure.csproj",
+        "packagesPath": "/Users/shahab/.nuget/packages/",
+        "outputPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shahab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Migrations/MyApp.Migrations.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Migrations/MyApp.Migrations.csproj",
+        "projectName": "MyApp.Migrations",
+        "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Migrations/MyApp.Migrations.csproj",
+        "packagesPath": "/Users/shahab/.nuget/packages/",
+        "outputPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Migrations/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shahab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Seeding/MyApp.Seeding.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Seeding/MyApp.Seeding.csproj",
+        "projectName": "MyApp.Seeding",
+        "projectPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Seeding/MyApp.Seeding.csproj",
+        "packagesPath": "/Users/shahab/.nuget/packages/",
+        "outputPath": "/Users/shahab/projects/dotnet/dotnet-graphql-starter/src/MyApp.Seeding/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/shahab/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
