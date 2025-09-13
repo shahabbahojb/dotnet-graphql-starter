@@ -1,4 +1,4 @@
-namespace MyApp.Infrastructure.Types;
+namespace MyApp.Api;
 
 [QueryType]
 public static class Query
