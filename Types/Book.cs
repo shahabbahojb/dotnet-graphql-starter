@@ -1,3 +1,10 @@
+using System.ComponentModel.DataAnnotations.Schema;
+
 namespace Demo.Gql.Types;
 
-public record Book(string Title, Author Author);
+public class Book : BaseEntity
+{
+    public string Title { get; set; } = null!;
+    public Author Author { get; set; } = null!;
+    public int AuthorId { get; set; } 
+}
